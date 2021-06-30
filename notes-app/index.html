@@ -1,0 +1,39 @@
+<!DOCTYPE html>
+<html>
+    <head>
+        <title>Notes Web app</title>
+    </head>
+    <body>
+        <input id = "search" type = "text" placeholder = "Enter query">
+        <label>
+            | <input type="checkbox" id="is-completed"> Hide completed notes
+        </label>
+        <div id="notes">
+
+        </div>
+        <br>
+
+        <h1>Notes App</h1>
+        <h2 class="note">Take notes and never forget</h2>
+        <h3 class="note">This website is created by Ahrooran</h3>
+
+        <button id = "create-note">Create note</button>
+        <button id = "clear-notes">Clear notes</button>
+        <br><br>
+        
+        <form id="name-form">
+            <input type="text" placeholder="First Name" name="firstName">
+            <button>Submit</button>
+        </form>
+        <br>
+
+        <select id="filter-options">
+            <option value="byEdited">Sort by last edited</option>
+            <option value="byCreated">Sort by recently created</option>
+            <option value="alphabetical">Sort by alphabetical order</option>
+        </select>
+
+        <script src="notes-functions.js"></script>
+        <script src="notes-app.js"></script>
+    </body>
+</html> 
